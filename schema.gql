@@ -1,0 +1,14 @@
+type Query {
+    info: String
+}
+
+type Message {
+    messageBody: String!
+    sentBy: User!
+    receivedBy: User!
+}
+
+type User {
+    username: String!
+    email: String!
+}
